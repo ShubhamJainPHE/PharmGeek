@@ -1,1 +1,17 @@
-# PharmGeek
+Our Model will work in three main phases:
+1. Prediction of Events.
+2. Evacuation/Rescue operation
+3. After disaster rescue
+
+At every phase, we will try to digitalise the process and make the connectivity easier and convenient. Many things can be done to avoid natural calamity and for the rescue operation, we will try to introduce some new methodologies, while trying to optimize the current operations. We will leverage the fact of the use of technology through mobile phones, where our model can work successfully.
+Each phase has been described below:
+
+Phase 1: The most unpredictable thing to do is to predict nature. We will try to predict this by implementing Bandit Algorithm. Bandit algorithm will learn and compare the data from the given dataset and will rank all the locations as per the increasing risk. Suppose, we have data of 9 locations, 6 have been hit by earthquake and 3 didn't. We will run our model to rank all the 10 location on the increasing order risk. If our location is ranked in top 3 positions, we are safe else the chances of getting hit are very high, this model can predict and give result anytime, also can be predicted dynamically and can be studied in particular interval of time. We will implement the UCB algorithm but to study dynamically, we have to use Thompson Samling algorithm.
+
+Phase 2: Once we get the alert of getting the hit, our goal will be to make evacuation more safe and optimized. We will study which cluster is getting affected first and with what time intervals others are having the probability of getting hit. Our application will push notifications to the area which are getting hit first and with a time limit to evacuate. And this push notification will be passed to other areas subsequently.
+We will model our navigation system, which will guide them in such a manner that minimum traffic can be seen. Also, we will keep-up a very less dense path, where rescuing vehicles can be reached to hospitals/rescue camp quickly.
+In this, we will also add a feature to give personalized experience. Suppose, if you are in a safe area, you can post/flag-up your location and maximum no of peoples you want/can accommodate. This will modify the navigation in a manner to accommodate the peoples in the safe place. Also, we can determine the distance and can post navigation according to gender/age, for which we would be asking the full information of accompanying people per phone. Similarly, if you are the/in-around more risky area, you can post yourself in map asking for immediate help. Our application will guide them through the best path to the safe camp through the shortest and fastest way.
+
+Phase 3: Our application will also be helpful, even after the disaster is caused. The basic problem in the after-disaster is the lack of Network/ Connectivity. In our application, we will also add a feature, which will connect you to the surrounding peoples using the proximity network(hotspot), similar to media-transfer apps. Albeit, here you can chat to surrounding, can be contacted through the rescue team, post your place if it is safe and max no of peoples you can accommodate. The only problem is the detection of Location using this network(we may get the approx distance among users) and the reach and no of connections. If we can increase the radius of the network of our hotspot or can post some device, it can have a very big reach.
+
+Ek baar dekh lo, bakwas hata do aur technical terms daal do!
