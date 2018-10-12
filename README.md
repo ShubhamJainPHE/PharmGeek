@@ -2,8 +2,7 @@ Our Model will work in three main phases:
 1. Prediction of Events.
 2. Evacuation/Rescue operation
 3. After disaster rescue
- 
-At every phase of the proposed solution, we will try to digitalize the process and make the connectivity easier and convenient. Many ways can be adopted to avoid natural calamity and for the rescue operation, we will try to introduce some new methodologies, while trying to optimize the current operations. We will leverage the fact of the use of technology through mobile phones, where our model can work successfully.
+
 Each phase has been described below:
  
 Phase 1: The most unpredictable thing to do is to predict nature. We will try to predict this by implementing Bandit Algorithms. Bandit algorithm will learn and compare the data from the given dataset and will rank all the locations as per the increasing risk. Suppose, we have data of 9 locations, 6 have been hit by earthquake and 3 didn't. We will run our model to rank all the locations on the increasing order risk. If our location is ranked in top 3 positions, we are safe else the chances of getting hit are very high, this model can predict and give result anytime, also can be predicted dynamically and can be studied in particular interval of time. We will implement the UCB algorithm but to study dynamically, we have to use Thompson Sampling algorithm.
